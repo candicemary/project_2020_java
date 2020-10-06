@@ -23,13 +23,10 @@ public class BufferReader {
 	 BufferedWriter out = new BufferedWriter(new FileWriter(writeWords));
 	
 	String line = "";
-	line = br.readLine();
-	while (line != null){
-		
+
+	while( (line=br.readLine())!= null){
 		System.out.println(line);
 		out.write(line);
-		out.flush();	
-		line = br.readLine();
 	}
 	
 	out.close();
