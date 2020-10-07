@@ -1,4 +1,4 @@
-package small;
+package filerelated;
 
 import java.io.File;
 import java.io.InputStreamReader;
