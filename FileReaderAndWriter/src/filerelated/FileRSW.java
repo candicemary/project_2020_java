@@ -51,37 +51,3 @@ public class FileRSW {
 		System.out.println("Writing in to txt file done.");
 	}
 }
-/*
-*RSW.TXT ORIGINAL FILE 
-*abcdkhgkljm
-*kjhgkhggjll
-*hgghiugghj
-*kjhjoppkjkhghgfg
-tropsngalngfry
-98hgkqlwjvv
-1025467hgjjhb
-abcdkhgkljm
-kjhgkhggjll
-hgghiugghj
-kjhjoppkjkhghgfg
-tropsngalngfry
-98hgkqlwjvv
-1025467hgjjhb
-abcdkhgkljm
-kjhgkhggjll
-hgghiugghj
-kjhjoppkjkhghgfg
-tropsngalngfry
-98hgkqlwjvv
-1025467hgjjhb
-*
-*
-*OUTPUTRSW.TXT
-*
-000111222444555666777888999aaaaaabbbbbbcccdddfffff
-fggggggggggggggggggggggggggggggggggggggggggggghhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhiiijjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-kkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllmmmnnnnnnoooooopppppppppqqqrr
-rrrrssstttuuuvvvvvvwwwyyy
-*
-*/
