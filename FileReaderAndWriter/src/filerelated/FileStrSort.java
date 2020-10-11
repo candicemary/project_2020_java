@@ -1,6 +1,6 @@
 package filerelated;
 
-public class test111 {
+public class FileStrSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
