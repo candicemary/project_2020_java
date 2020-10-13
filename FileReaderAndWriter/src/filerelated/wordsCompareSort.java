@@ -38,7 +38,7 @@ public class wordsCompareSort {
 			Collections.sort(listE, new Comparator<String>() {// 泛型、、定义list 类型string int double
 				public int compare(String str1, String str2) {// 任意的两个string
 
-					if (str1.length() == str2.length()) {
+					if (str1.length() != str2.length()) {
 						return str1.length() - str2.length();// 匿名内部类的目的-排序-冒泡法-两个元素谁大谁小
 					} else {
 						return str1.compareTo(str2);
@@ -53,6 +53,8 @@ public class wordsCompareSort {
 			for (int i = 0; i < listE.size(); i++) { // i 从0 开始跑一直跑到list.size-1的这个数组。
 				String aa = listE.get(i);//
 				out.write(aa);
+				out.newLine();
+				out.write("\r\n");
 			}
 			out.close();
 		} catch (Exception e) {
