@@ -21,7 +21,7 @@ public class wordsCompareSort {
 
 			InputStreamReader reader = new InputStreamReader(new FileInputStream(filename));
 			BufferedReader br = new BufferedReader(reader);
-			List<Integer> listE = new ArrayList<Integer>();
+			List<String> listE = new ArrayList<String>();
 			String str = "";
 			Integer inte = null;
 			int minh = 1000;
