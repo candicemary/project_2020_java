@@ -67,11 +67,18 @@ public class wordsCompareSort {
 				}
 
 			}
-
+			double s = 0;
 			Collections.sort(listE);
 			int size = listE.size();
 			if (size % 2 == 1) {
-
+				
+				s = (listE.get(size/2-1) + listE.get(size/2)+0.0)/2;//加0.0是为了计算是将int类型转换为浮点型
+		    	
+		    }else {
+		    	s = listE.get((size-1)/2);
+		    }
+			return s;
+	
 			}
 
 			File writeWords = new File("C:\\Users\\Candi\\Desktop\\JavaTest\\ReadandWrite\\output11.txt");
@@ -85,11 +92,13 @@ public class wordsCompareSort {
 			}
 
 			out.close();
-		} catch (Exception e) {
-			System.out.println("抛出异常" + e);
-			e.printStackTrace();
+		}catch(
 
-		}
+	Exception e)
+	{
+		System.out.println("抛出异常" + e);
+		e.printStackTrace();
 
 	}
-}
+
+}}
